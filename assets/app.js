@@ -205,7 +205,21 @@
     show(0);
   }
 
+  // ---------- 활동 안내 ----------
+
+  // 기획서 앱 QR (교실 화면에 띄워 아이패드로 찍을 수 있게). 라이브러리가 없으면 링크 버튼만 남는다.
+  function renderHome() {
+    const link = document.getElementById("plan-app-link");
+    const box = document.getElementById("plan-app-qr");
+    if (!link || !box || typeof window.qrcode !== "function") return;
+    const qr = window.qrcode(0, "M");
+    qr.addData(link.href);
+    qr.make();
+    box.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 2, scalable: true });
+  }
+
   const page = document.body.dataset.page;
+  if (page === "home") renderHome();
   if (page === "gallery") renderGallery();
   if (page === "project") renderProject();
 })();

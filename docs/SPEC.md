@@ -10,6 +10,7 @@ tags:
   - GitHubPages
   - Canva
 related:
+  - "[[00-AI동아리-내고민해결앱-프로젝트허브]]"
   - "[[2026-AI동아리-5-6학년-내고민해결앱만들기-계획서]]"
   - "[[2026-AI동아리-5-6학년-내고민해결앱만들기-학습지와자료]]"
 ---
@@ -258,7 +259,7 @@ code D:\Projects\ai-club-2026
 
 | 자료 | 위치 | 쓰임 |
 | --- | --- | --- |
-| 이 명세 | `00_Obsidian_Vault/20_Lessons_Training/2026-AI동아리-5-6학년-내고민해결앱만들기-깃허브갤러리-명세.md` | 새 폴더에 `docs/SPEC.md`로 복사 |
+| 이 명세 | `00_Obsidian_Vault/20_Lessons_Training/2026-AI동아리-내고민해결앱/2026-AI동아리-5-6학년-내고민해결앱만들기-깃허브갤러리-명세.md` | 새 폴더에 `docs/SPEC.md`로 복사 |
 | 학습지와 자료 | 같은 폴더 `…-학습지와자료.md` (C·D·E·I·H절) | 활동 안내 페이지 내용, Forms 열 이름 |
 | 시험용 게시 링크 | `https://xn--o79ay59agzdiwb.my.canva.site/cmzttgv7h6ejhfvy` (교사 기획서 앱) | 보관 스크립트 인수 테스트 |
 | 예시 화면 4장 | `03_Outputs/Slides/2026-AI동아리-내고민해결앱/compare_*.png`, `template_*.png` | 갤러리 화면을 미리 채워 볼 가짜 데이터 썸네일 |
