@@ -140,6 +140,10 @@
           el("p", { class: "slide-text", text: project.testSentence || "아직 적지 않았어요." }),
           open ? el("p", {}, el("a", {
             class: "btn primary", href: appHref(project), target: "_blank", rel: "noopener", text: "앱 실행"
+          })) : null,
+          // link-only는 보관본이 없으므로, 원본이 열려 있으면 원본으로 시연한다 (SPEC 4-3)
+          !open && project.sourceUrl && project.sourceOpen !== false ? el("p", {}, el("a", {
+            class: "btn primary", href: project.sourceUrl, target: "_blank", rel: "noopener noreferrer", text: "Canva 원본"
           })) : null
         ]) }
     ];
