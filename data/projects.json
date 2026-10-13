@@ -1,0 +1,10 @@
+{
+  "club": "2026 AI 동아리",
+  "term": "2026-2",
+  "projects": [
+    { "id": "team1", "teamName": "", "status": "waiting" },
+    { "id": "team2", "teamName": "", "status": "waiting" },
+    { "id": "team3", "teamName": "", "status": "waiting" },
+    { "id": "team4", "teamName": "", "status": "waiting" }
+  ]
+}
