@@ -12,3 +12,6 @@ __pycache__/
 .vscode/
 Thumbs.db
 desktop.ini
+
+# 보관 스크립트 백업
+tools/backup/
