@@ -1,6 +1,6 @@
 # ai-club-2026
 
-2026년 2학기 AI 동아리(5·6학년 4팀) "내 고민 해결 앱 만들기" 활동 안내와 작품 갤러리.
+2026년 AI 동아리 활동 안내와 작품 갤러리. 첫 화면은 SPIKE Prime 라인트레이서 활동이며, 이전 앱 만들기 안내는 `app-making.html`에 보관한다.
 순수 HTML·CSS·JS로 만들고 GitHub Pages(main 브랜치 루트)로 배포한다.
 
 - 명세: [docs/SPEC.md](docs/SPEC.md)
